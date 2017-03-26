@@ -1,0 +1,13 @@
+<template>
+  <require from="./transclusion-slots-1.html"></require>
+  <require from="./transclusion-slots-2.html"></require>
+
+  <h3>Single-slot</h3>
+  <transclusion-slots-1>${text}</transclusion-slots-1>
+
+  <h3>Multi-slot</h3>
+  <transclusion-slots-2>
+    <div slot="slot-a">A value</div>
+    <div slot="slot-b">B value</div>
+  </transclusion-slots-2>
+</template>

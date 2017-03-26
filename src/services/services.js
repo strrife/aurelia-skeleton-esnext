@@ -1,4 +1,4 @@
-import {NumberOperator} from './services/number-operator';
+import {NumberOperator} from './number-operator';
 import {inject} from 'aurelia-framework';
 
 @inject(NumberOperator)

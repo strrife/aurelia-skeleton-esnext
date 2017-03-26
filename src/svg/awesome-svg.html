@@ -1,0 +1,6 @@
+<template bindable="title, colors">
+  <h1>${title}</h1>
+  <svg>
+    <rect repeat.for="color of colors" fill.bind="color" x.bind="$index * 100" y="0" width="50" height="50"></rect>
+  </svg>
+</template>

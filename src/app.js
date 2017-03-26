@@ -11,7 +11,7 @@ export class App {
       }, {
         route: 'svg',
         name: 'svg',
-        moduleId: 'svg',
+        moduleId: 'svg/svg',
         nav: true,
         title: 'SVG Component'
       }, {

@@ -1,0 +1,14 @@
+<template>
+  <h3>Two-way binding to an input</h3>
+  <input class="form-control" type="text" value.bind="text">
+
+  <h3>One-way binding to an input</h3>
+  <input class="form-control form-control-sm" type="text" value.one-way="text">
+
+  <h3>One-time binding to an input</h3>
+  <input class="form-control form-control-sm" type="text" value.one-time="text">
+
+  <h3>Binding to a custom element</h3>
+  <require from="./binding-child"></require>
+  <binding-child text.two-way="text"></binding-child>
+</template>
